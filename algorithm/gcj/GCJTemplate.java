@@ -19,6 +19,8 @@ public class GCJTemplate{
 	
 	public static void main(String []args){
 		GCJTemplate template = new GCJTemplate();
+		template.preprocess();
+		template.solve();
 	}
 	
 	private void preprocess(){
