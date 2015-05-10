@@ -24,7 +24,7 @@ public class MainAlienLanguage{
 				words[i] = br.readLine();
 			}
 			//the strategy for this problem is to build regular expression pattern
-            //against the alien words and search the matched words
+            //againsts the alien words and search the matched words
 			for (int i=0; i < N; i++){
 				int counter = 0;
 				String regex = br.readLine();
