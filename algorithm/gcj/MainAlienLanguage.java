@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.regex.*;
 
 /**
-* Solution for <a href="https://code.google.com/codejam/contest/90101/dashboard">this</a> problem
+* Solution for <a href="https://code.google.com/codejam/contest/90101/dashboard#s=p0">this</a> problem
 * passed for both small and large inputs
 * Alien Language, Qualification Round GCJ 2009
 */
@@ -24,7 +24,7 @@ public class MainAlienLanguage{
 				words[i] = br.readLine();
 			}
 			//the strategy for this problem is to build regular expression pattern
-            //against the alien words and search the matched words
+            //againsts the alien words and search the matched words
 			for (int i=0; i < N; i++){
 				int counter = 0;
 				String regex = br.readLine();
