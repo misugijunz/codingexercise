@@ -1,0 +1,6 @@
+:::README:::
+
+Implementasi java untuk 2.7 belum dites/divalidasi kebenarannya...
+
+kode untuk gambaran saja, bisa dilihat bahwa Sensors memanfaatkan info dari Environment dan Actuators memanfaatkan info dari Sensors dan melakukan
+tindakan terhadap Environment.
